@@ -26,13 +26,13 @@ logo=("""
 
 \033[1;96m═════════════════════════════════════════════
 
-\x1b[1;36m{+} \x1b[1;91mTOOL CREATED BY   \x1b[1;97m: Robiul AHAMED
+\x1b[1;36m{+} \x1b[1;91mTOOL CREATED BY   \x1b[1;97m: Robiul Shaek 
 
-\x1b[1;36m{+} \x1b[1;92mGITHUB NAME       \x1b[1;97m: \x1b[1;94mRobiul-CYBER-404
+\x1b[1;36m{+} \x1b[1;92mGITHUB NAME       \x1b[1;97m: \x1b[1;94mROBIUL-FACKER
 
 \x1b[1;36m{+} \x1b[1;93mTOOL / \x1b[1;92mSTATUS    \x1b[1;97m : \x1b[1;93mFILE / \x1b[1;92mACTIVE
 
-\x1b[1;36m{+} \x1b[1;90mTOOL VIRSION      \x1b[1;97m: \x1b[1;90m0.1
+\x1b[1;36m{+} \x1b[1;90mTOOL VIRSION      \x1b[1;97m: \x1b[1;90m0.2
 \033[1;96m═════════════════════════════════════════════
 
 """)
@@ -195,7 +195,7 @@ def main():
 
 		clear()
 
-		File = input(f' [\033[1;32m✓\033[1;37m] 𝗣𝗨𝗧 𝗙𝗜𝗟𝗘 𝗟𝗢𝗖𝗔𝗧𝗜𝗢𝗡 [\033[1;32m❯\033[1;37m] ')
+		File = input(f' [\033[1;32m✓\033[1;37m] 𝗣𝗨𝗧 𝗙𝗜𝗟𝗘 Name  [\033[1;32m=>\033[1;37m] ')
 
 		try:
 
@@ -275,7 +275,7 @@ def m1(ids,names,passlist):
 
         global loop,oks,cps
 
-        sys.stdout.write(f'\r\r\033[1;37m [open] \033[1;36m•\033[1;37m %s \033[1;36m•\033[1;37m OK \033[1;36m•\033[1;37m [\033[1;32m%s\033[1;37m]'%(loop,len(oks)));sys.stdout.flush()
+        sys.stdout.write(f'\r\r\033[1;37m [ROBIUL] \033[1;36m•\033[1;37m %s \033[1;36m•\033[1;37m OK \033[1;36m•\033[1;37m [\033[1;32m%s\033[1;37m]'%(loop,len(oks)));sys.stdout.flush()
 
         session = requests.Session()
 
@@ -317,9 +317,9 @@ def m1(ids,names,passlist):
 
                                 kuki = (f";").join([ "%s=%s" % (key, value) for key, value in session.cookies.get_dict().items() ])
 
-                                print(f'\r\r\033[1;32m [open\033[1;36m•\033[1;37m\033[1;32mOK] %s \033[1;36m•\033[1;37m\033[1;32m %s'%(ids,pas))
+                                print(f'\r\r\033[1;32m [ROBIUL\033[1;36m•\033[1;37m\033[1;32mOK] %s \033[1;36m•\033[1;37m\033[1;32m %s'%(ids,pas))
 
-                                open(f'/sdcard/open•OK•M1.txt', 'a').write(ids+'|'+pas+'\n')
+                                open(f'/sdcard/ROBIUL•OK•M1.txt', 'a').write(ids+'|'+pas+'\n')
 
                                 oks.append(ids)
 
@@ -329,9 +329,9 @@ def m1(ids,names,passlist):
 
                                 if 'y' in pcp:
 
-                                        print(f'\r\r\x1b[38;5;208m [open•CP] '+ids+' • '+pas+'\033[1;97m')
+                                        print(f'\r\r\x1b[38;5;208m [ROBIUL•CP] '+ids+' • '+pas+'\033[1;97m')
 
-                                        open(f'/sdcard/open•CP.txt', 'a').write(ids+'|'+pas+'\n')
+                                        open(f'/sdcard/ROBIUL•CP.txt', 'a').write(ids+'|'+pas+'\n')
 
                                         cps.append(ids)
 
@@ -355,7 +355,7 @@ def m2(ids,names,passlist):
 
         global loop,oks,cps
 
-        sys.stdout.write(f'\r\r\033[1;37m [open] \033[1;36m•\033[1;37m %s \033[1;36m•\033[1;37m OK \033[1;36m•\033[1;37m [\033[1;32m%s\033[1;37m]'%(loop,len(oks)));sys.stdout.flush()
+        sys.stdout.write(f'\r\r\033[1;37m [ROBIUL] \033[1;36m•\033[1;37m %s \033[1;36m•\033[1;37m OK \033[1;36m•\033[1;37m [\033[1;32m%s\033[1;37m]'%(loop,len(oks)));sys.stdout.flush()
 
         session = requests.Session()
 
@@ -397,9 +397,9 @@ def m2(ids,names,passlist):
 
                                 kuki = (f";").join([ "%s=%s" % (key, value) for key, value in session.cookies.get_dict().items() ])
 
-                                print(f'\r\r\033[1;32m [open\033[1;36m•\033[1;37m\033[1;32mOK] %s \033[1;36m•\033[1;37m\033[1;32m %s'%(ids,pas))
+                                print(f'\r\r\033[1;32m [ROBIUL\033[1;36m•\033[1;37m\033[1;32mOK] %s \033[1;36m•\033[1;37m\033[1;32m %s'%(ids,pas))
 
-                                open(f'/sdcard/open•OK•M2.txt', 'a').write(ids+'|'+pas+'\n')
+                                open(f'/sdcard/ROBIUL•OK•M2.txt', 'a').write(ids+'|'+pas+'\n')
 
                                 oks.append(ids)
 
@@ -409,9 +409,9 @@ def m2(ids,names,passlist):
 
                                 if 'y' in pcp:
 
-                                        print(f'\r\r\x1b[38;5;208m [open•CP] '+ids+' • '+pas+'\033[1;97m')
+                                        print(f'\r\r\x1b[38;5;208m [ROBIUL•CP] '+ids+' • '+pas+'\033[1;97m')
 
-                                        open(f'/sdcard/open•CP.txt', 'a').write(ids+'|'+pas+'\n')
+                                        open(f'/sdcard/ROBIUL•CP.txt', 'a').write(ids+'|'+pas+'\n')
 
                                         cps.append(ids)
 
